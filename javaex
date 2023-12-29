@@ -1,0 +1,81 @@
+//if and if else
+if (adet)
+{
+  console.log("take umperla")
+}
+else
+{
+  console.log("Enjoy the time")
+}
+
+var adet="false"
+
+//and or exlamentari
+console.log(false && true && true)
+console.log(false || false || true)
+console.log(!false)
+
+//if else excercise
+var color = "yellow"
+
+
+if(color == "red")
+{
+  console.log("Stop")
+}
+if(color == "yellow")
+{
+  console.log("get reddy")
+}
+if(color == "green")
+{
+  console.log("go")
+}
+
+//em
+var season= "spring" 
+
+if(season == "spring")
+{
+  console.log("Enjoy the blooming flowers")
+}
+
+if(season == "summer")
+{
+  console.log("have fun in the sun")
+}
+
+//ex 2
+var score = 85
+
+if (score<50)
+{
+  console.log("you need to improve")
+}
+
+if(score>50 && score<70)
+{
+  console.log("good job")
+
+}
+
+if (score>70)
+{
+  console.log("Excellent performance")
+}
+
+
+//incase three and abouve statements 
+//use if else 
+
+var Number = 34
+//add even number
+if (Number%2==0)
+{
+  console.log(Number+"the number is even number")
+}
+
+else
+{
+  console.log("the number is add")
+}
