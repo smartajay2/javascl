@@ -79,3 +79,41 @@ else
 {
   console.log("the number is add")
 }
+
+//vowel or consonant finder
+//aeioe its a vowel
+
+var Character=a 
+
+if( Ch==a|| ch==e|| Ch==i|| Ch==o|| Ch==u||)
+{
+  console.log("Its a vowel")
+
+}
+
+else
+{
+  console.log("Its a vowel")
+
+}
+
+function checkVowelOrConsonant(char) {
+  // Convert the character to lowercase to handle both cases (upper and lower)
+  var lowerChar = char.toLowerCase();
+
+  // Check if the character is a vowel
+  if 
+  (lowerChar === 'a' || lowerChar === 'e' || lowerChar === 'i' || lowerChar === 'o' || lowerChar === 'u')
+  {
+      console.log(char + ' is a vowel.');
+  } 
+  else 
+  {
+      console.log(char + ' is a consonant.');
+  }
+}
+
+// Example usage
+var inputChar = 'A'; // You can change this to any character
+checkVowelOrConsonant(inputChar);
+
