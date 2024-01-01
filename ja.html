@@ -1,0 +1,33 @@
+<input id="one" value="4">
+<input id="two" value="3">
+<button  onclick="totalfunction()">Add</button>
+<p id="Result">Result</p>
+
+
+
+<script>
+  //create variable for two input 
+  var One= document.getElementById ("one")
+  var Two= document.getElementById ("two")
+
+  //create variable p 
+  var Result = document.getElementById("Result")
+
+
+  //add two variable one and two
+
+ 
+  
+  function totalfunction()
+  {
+    var Onevalue= Number(One.value)
+    var Twovalue= Number(Two.value)
+
+
+    var total=Onevalue+Twovalue
+    Result.textContent=total
+  }
+ 
+
+</script>
+
