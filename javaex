@@ -117,3 +117,71 @@ function checkVowelOrConsonant(char) {
 var inputChar = 'A'; // You can change this to any character
 checkVowelOrConsonant(inputChar);
 
+
+
+
+
+var a = Math.random()
+
+console.log(a*8)
+
+6.225444846196089
+1.6455289238175776
+
+var b=Math.floor(8.99)
+console.log(b)
+8
+
+
+//calculator
+
+<input id="one" value="4">
+<input id="two" value="3">
+<button  onclick="totalfunction()">Add</button>
+<button  onclick="Subt()">SUB</button>
+<button  onclick="totalfunction()">MUL</button>
+<button  onclick="totalfunction()">DIV</button>
+
+<p id="Result">Result</p>
+
+
+
+<script>
+  //create variable for two input 
+  var One= document.getElementById ("one")
+  var Two= document.getElementById ("two")
+
+  //create variable p 
+  var Result = document.getElementById("Result")
+
+
+  //add two variable one and two
+
+ 
+  
+  function totalfunction()
+  {
+    var Onevalue= Number(One.value)
+    var Twovalue= Number(Two.value)
+
+
+    var total=Onevalue + Twovalue
+    
+  
+
+    Result.textContent=total
+  }
+  function Subt()
+  {
+    var Onevalue= Number(One.value)
+    var Twovalue= Number(Two.value)
+
+
+    var total=Onevalue - Twovalue
+  
+
+    Result.textContent=total
+  }
+ 
+
+</script>
