@@ -26,12 +26,56 @@
           <div class="PERSONAL-DETAILS">
             <h4>PERSONAL INFORMATION</h4>
           </div>
-
-            <DIV class="AB">
-              <B class="A">FIRST NAME </B><input type="text" >
-              <B class="B">LAST NAME</B><INPUT type="text">
-            </DIV>
-
+        <center>
+        <div class="Details">
+          <table>
+           
+            <tr>
+              <td>First name</td> <td>Second name</td>
+            </tr>
+            <tr>
+              <td><input type="text"></td> <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>Gender</td> <td>Phone</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="Gender">Male 
+                <input type="radio" name="Gender">Female
+              </td> 
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+              <td>Date of Birth</td> <td>Email</td>
+            </tr>
+            <tr>
+              <td><input type="date"></td> <td><input type="email"></td>
+            </tr>
+            <tr>
+              <td>Address</td> <td>Street</td>
+            </tr>
+            <tr>
+              <td><input type="text"></td> <td><input type="email"></td>
+            </tr>
+            <tr>
+              <td>City</td> <td>ZIP code</td>
+            </tr>
+            <tr>
+              <td><input type="text"></td> <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td style=" font-style: italic; font-weight: bold;">Education</td> <td style=" font-style: italic; font-weight: bold;">Experience</td>
+            </tr>
+            <tr>
+              <td><input type="text"></td> <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td><input type="text"></td> <td><input type="text"></td>
+            </tr>
+          </table>
+        </div>
+      </center>
       </body>
       <style>
         body{
@@ -87,6 +131,12 @@
         }
         .B{
           margin-left: 50%;
+        }
+        .Details,tr,td{
+          font-family: Tahoma;
+          text-transform: capitalize;
+          font-size: 18px;
+          
         }
       </style>
 </html>
